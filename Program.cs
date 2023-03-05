@@ -9,12 +9,12 @@ void Arr(double[,] arr)//заполняет массив
 { 
     for (int indexX = 0; indexX < arr.GetLength(0); indexX++)
     {
-        //Console.WriteLine();
+        Console.WriteLine();
         for (int indexY = 0; indexY < arr.GetLength(1); indexY++)
         {
             arr[indexX, indexY] = rd();
-            // Console.Write( arr[indexX,indexY]);
-            //Console.Write(" ");
+            Console.Write( arr[indexX,indexY]);
+            Console.Write(" ");
         }
     }
 
